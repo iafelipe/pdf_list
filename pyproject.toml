@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf_list"
+version = "1.0"
+authors = [
+  { name="Igor Felipe", email="igorafelipe@gmail.com" },
+]
+dependencies = ["pypdf"]
+
+[project.scripts]
+pdf_list = "pdf_list:main"
