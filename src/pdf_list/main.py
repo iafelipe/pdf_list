@@ -12,7 +12,7 @@ def get_pdf(filename: str) -> BinaryIO:
 def main() -> None:
     parser = argparse.ArgumentParser(
         prog="pdf_list",
-        description="""Manipulate e merge PDF files using list-like indexing \n\nindexing options:
+        description="""Manipulate and merge PDF files using Python list-like indexing. \n\nindexing options:
   [start:stop:step]
   [start:stop]
   [start:]
